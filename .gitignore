@@ -1,3 +1,40 @@
-env/
+# .gitignore
+
+# Virtual environment
+venv/
+*.venv/
+
+# Compiled Python files
+__pycache__/
 *.pyc
-__pycache__
+*.pyo
+*.pyd
+
+# Dependency directories
+.env
+# También puedes incluir .env.local, .env.* para entornos específicos si es necesario
+
+# Dependency files
+*.log
+*.sqlite3
+*.pyc
+*.pyo
+*.pyd
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Creado por python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the virtual environment folder
+# Ignore the compiled Python files
+# Ignore the .env file
+# Ignore logs and databases
+# Ignore pycache folders and compiled files
