@@ -22,7 +22,7 @@ y te aparecerá lo siguiente:
 
 si quieres parar el proyecto solo utiliza "Ctrl+C"
 
-#cosas que no pude añadir
+# Cosas que no pude añadir
 lamentablemente no pude implementar Marshmallow para la autenticación 
 ni tampoco pude refactorizar con methodview() como se me pedía
 
