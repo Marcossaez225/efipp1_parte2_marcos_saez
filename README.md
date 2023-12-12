@@ -91,7 +91,8 @@ y finalmente, corremos el proyecto con un:
 y accedemos a localhost:5000. Con eso, estás listo para disfrutar el miniblog!
 
 # Cosas que no pude añadir:
-lamentablemente no pude implementar Marshmallow para la autenticación 
+lamentablemente no pude implementar Marshmallow para la autenticación
+ni MethodView para hacerlo una API
 
 lo siento mucho.
 
