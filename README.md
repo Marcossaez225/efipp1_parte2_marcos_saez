@@ -16,8 +16,27 @@ y también registra las publicacione(id, titulo, contenido, autor y fecha de pub
 * Docker
   
 # Instrucciones de Set-Up:
+Para correr este projecto, lo podemos hacer de manera local o virtualizando la aplicación con Docker.
 
-#Corriendo el programa de manera local con Xampp:
+# Corriendo el programa con Docker:
+
+Para virtualizarlo y correrlo con Docker, es necesario tener los servicios de Docker instalados. Usaremos comandos de docker y docker-compose.
+
+Primero clonamos el repositorio de manera local. Luego, en la carpeta clonada deberemos crear un archivo ".env" donde necesitamos almacenar nuestras credenciales de acceso. Para saber como completar este archivo, necesitarás guiarte de ".env.example", donde habrá un modelo con los nombres de variables que usa el programa. Una vez realizado el '.env', abriremos la terminal y escribiremos:
+```
+  sudo docker-compose build
+```
+
+y, cuando termine de construirse la imagen de docker que contiene nuestra aplicación, haremos el siguiente comando para correr el contenedor:
+```
+  sudo docker-compose up
+```
+
+De estar bien puestas las credenciales, en la terminal debería indicar que el contenedor está andando y siendo accesible desde localhost:5040.
+
+Si estuviesemos en Windows, el proceso sería igual, sólo que en la terminal no tendríamos que hacer uso de "sudo", es decir, escribir directamente "docker-compose build" y "docker-compose up".
+
+# Corriendo el programa de manera local con Xampp:
 
 Para correrlo local se necesita una versión actualizada de python y Xampp para simular la base de datos de manera local. Se deben seguir los siguientes pasos:
 
